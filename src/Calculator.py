@@ -1,4 +1,4 @@
-# Static Methods
+# Static Methods For Each Calculation
 
 # Addition Static
 def addition(a, b):
@@ -20,8 +20,8 @@ def division(a, b):
 def squared(a, b):
     return a ** b
 
-# Square Root
-def squared(a):
+# Square Root Static
+def square_root(a):
     a**.5
     return
 
@@ -56,4 +56,8 @@ class Calculator:
     # Squared Number
     def squared(self, a, b):
         self. result = a ** b
+        return self.result
+
+    def square_root(self, a):
+        self.result = a**.5
         return self.result

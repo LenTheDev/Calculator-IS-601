@@ -39,9 +39,10 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(calculator.squared(2, 3), 9)
         self.assertEqual(self.calculator.result, 9)
 
-    # Test for the result of a squared number
-    def test_divide_method_calculator(self):
-            self.assertEqual(calculator.division(2, 3), 9)
-            self.assertEqual(self.calculator.result, 9)
+    # Test for the result of a square root
+    def test_squareRoot_method_calculator(self):
+        self.assertEqual(calculator.square_root(144), 12)
+        self.assertEqual(self.calculator.result, 12)
+
         if __name__ == '__main__':
             unittest.main()
