@@ -2,26 +2,37 @@
 
 # Addition Static
 def addition(a, b):
+    a = int(a)
+    b = int(b)
     return a + b
 
 # Subtraction Static
 def subtraction(a, b):
+    a = int(a)
+    b = int(b)
     return a - b
 
 # Multiplication Static
 def multiplication(a, b):
+    a = int(a)
+    b = int(b)
     return a * b
 
 # Multiplication Static
 def division(a, b):
+    a = float(a)
+    b = float(b)
     return a / b
 
 # Squared Number Static
 def squared(a, b):
+    a = int(a)
+    b = int(b)
     return a ** b
 
 # Square Root Static
 def square_root(a):
+    a = int(a)
     a**.5
     return
 
