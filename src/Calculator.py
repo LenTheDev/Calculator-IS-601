@@ -1,4 +1,6 @@
 # Static Methods
+
+# Addition Static
 def addition(a, b):
     return a + b
 
@@ -11,6 +13,7 @@ class Calculator:
         self.result = x;
         pass
 
+    # Addition
     def add(self, a, b):
         self.result = a + b
         return addition(a, b)
