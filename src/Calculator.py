@@ -2,7 +2,7 @@
 def addition(a, b):
     return a + b
 
-
+# Object Methods
 class Calculator:
     result = 0
 
