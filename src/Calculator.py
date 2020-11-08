@@ -12,6 +12,19 @@ def subtraction(a, b):
 def multiplication(a, b):
     return a * b
 
+# Multiplication Static
+def division(a, b):
+    return a / b
+
+# Squared Number Static
+def squared(a, b):
+    return a ** b
+
+# Square Root
+def squared(a):
+    a**.5
+    return
+
 # Object Methods
 class Calculator:
     result = 0
@@ -33,4 +46,14 @@ class Calculator:
     # Multiplication
     def multiplication(self, a, b):
         self.result = a * b
+        return self.result
+
+    # Multiplication
+    def division(self, a, b):
+        self.result = a / b
+        return self.result
+
+    # Squared Number
+    def squared(self, a, b):
+        self. result = a ** b
         return self.result

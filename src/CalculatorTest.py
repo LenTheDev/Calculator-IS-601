@@ -29,5 +29,19 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(calculator.multiplication(10, 5), 50)
         self.assertEqual(self.calculator.result, 50)
 
+    # Test for the result of division
+    def test_divide_method_calculator(self):
+        self.assertEqual(calculator.division(100, 10), 10)
+        self.assertEqual(self.calculator.result, 10)
+
+    # Test for the result of a squared number
+    def test_squared_method_calculator(self):
+        self.assertEqual(calculator.squared(2, 3), 9)
+        self.assertEqual(self.calculator.result, 9)
+
+    # Test for the result of a squared number
+    def test_divide_method_calculator(self):
+            self.assertEqual(calculator.division(2, 3), 9)
+            self.assertEqual(self.calculator.result, 9)
         if __name__ == '__main__':
             unittest.main()
