@@ -29,7 +29,7 @@ def multiplication(a, b):
 def division(a, b):
     a = float(a)
     b = float(b)
-    c = round(b / a, 9)  # Second Parameter Rounds By (Decimal Places)
+    c = round(b / a, 8)  # Second Parameter Rounds By (Decimal Places)
     return c
 
 
@@ -38,7 +38,6 @@ def squared(a):
     a = int(a)
     b = a * a
     return b
-
 
 # Square Root Static
 def square_root(a):
