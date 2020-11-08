@@ -8,6 +8,10 @@ def addition(a, b):
 def subtraction(a, b):
     return a - b
 
+# Multiplication Static
+def multiplication(a, b):
+    return a * b
+
 # Object Methods
 class Calculator:
     result = 0
@@ -26,3 +30,7 @@ class Calculator:
         self.result = a - b
         return self.result
 
+    # Multiplication
+    def multiplication(self, a, b):
+        self.result = a * b
+        return self.result
