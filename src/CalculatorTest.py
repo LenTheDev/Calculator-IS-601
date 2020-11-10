@@ -67,7 +67,7 @@ class MyTestCase(unittest.TestCase):
         csv_data = self.testData.csv(data_path)
         for row in csv_data:
             self.assertEqual(self.calculator.square_root(row['Value 1']), float(row['Result']))
-        csv_data.clear()
+            csv_data.clear()
 
 
 if __name__ == '__main__':
