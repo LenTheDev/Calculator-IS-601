@@ -59,7 +59,7 @@ class MyTestCase(unittest.TestCase):
         csv_data = self.testData.csv(data_path)
         for row in csv_data:
             self.assertEqual(self.calculator.squared(row['Value 1']), int(row['Result']))
-        csv_data.clear()
+            csv_data.clear()
 
     # Test for the result of a square root
     def test_squareRoot_method_calculator(self):
