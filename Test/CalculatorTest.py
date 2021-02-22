@@ -23,7 +23,7 @@ class MyTestCase(unittest.TestCase):
 
     # Test for the result of addition
     def test_add_method_calculator(self):
-        data_path = 'Addition.csv'
+        data_path = '../Data/Addition.csv'
         csv_data = self.testData.csv(data_path)
         for row in csv_data:
             self.assertEqual(self.calculator.add(row['Value 1'], row['Value 2']), int(row['Result']))
@@ -31,7 +31,7 @@ class MyTestCase(unittest.TestCase):
 
     # Test for the result of subtraction
     def test_subtract_method_calculator(self):
-        data_path = 'Subtraction.csv'
+        data_path = '../Data/Subtraction.csv'
         csv_data = self.testData.csv(data_path)
         for row in csv_data:
             self.assertEqual(self.calculator.subtraction(row['Value 1'], row['Value 2']), int(row['Result']))
@@ -39,7 +39,7 @@ class MyTestCase(unittest.TestCase):
 
     # Test for the result of multiplication
     def test_multiply_method_calculator(self):
-        data_path = 'Multiplication.csv'
+        data_path = '../Data/Multiplication.csv'
         csv_data = self.testData.csv(data_path)
         for row in csv_data:
             self.assertEqual(self.calculator.multiplication(row['Value 1'], row['Value 2']), float(row['Result']))
@@ -47,7 +47,7 @@ class MyTestCase(unittest.TestCase):
 
     # Test for the result of division
     def test_divide_method_calculator(self):
-        data_path = 'Division.csv'
+        data_path = '../Data/Division.csv'
         csv_data = self.testData.csv(data_path)
         for row in csv_data:
             self.assertEqual(self.calculator.divide(row['Value 1'], row['Value 2']), float(row['Result']))
@@ -55,7 +55,7 @@ class MyTestCase(unittest.TestCase):
 
     # Test for the result of a squared number
     def test_squared_method_calculator(self):
-        data_path = 'Square.csv'
+        data_path = '../Data/Square.csv'
         csv_data = self.testData.csv(data_path)
         for row in csv_data:
             self.assertEqual(self.calculator.squared(row['Value 1']), int(row['Result']))
@@ -63,7 +63,7 @@ class MyTestCase(unittest.TestCase):
 
     # Test for the result of a square root
     def test_squareRoot_method_calculator(self):
-        data_path = 'SquareRoot.csv'
+        data_path = '../Data/SquareRoot.csv'
         csv_data = self.testData.csv(data_path)
         for row in csv_data:
             self.assertEqual(self.calculator.square_root(row['Value 1']), float(row['Result']))
